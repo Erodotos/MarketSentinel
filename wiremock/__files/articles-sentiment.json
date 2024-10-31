@@ -1,0 +1,106 @@
+{
+  "items": "158",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "feed": [
+    {
+      "title": "L3Harris And Palantir Collaboration Key To Future Growth, BofA Upgrades Stock - L3Harris Technologies  ( NYSE:LHX ) ",
+      "url": "https://www.benzinga.com/analyst-ratings/analyst-color/24/10/41660695/l3harris-and-palantir-collaboration-key-to-future-growth-bofa-upgrades-stock",
+      "source": "Benzinga",
+      "time_published": "20241031T173057",
+      "authors": ["Lekha Gupta"],
+      "summary": "BofA Securities analyst Ronald J. Epstein upgraded L3Harris Technologies, Inc. LHX to Buy from Neutral and raised the price target to $300 from $240. The analyst writes that L3Harris introduced its transformation initiative, \"LHX Next,\" which he initially viewed with cautious optimism.",
+      "overall_sentiment_score": 0.462546
+    },
+    {
+      "title": "Should Palantir Stock be Part of Your Portfolio Ahead of Q3 Earnings?",
+      "url": "https://www.zacks.com/stock/news/2362059/should-palantir-stock-be-part-of-your-portfolio-ahead-of-q3-earnings",
+      "source": "Zacks Commentary",
+      "time_published": "20241031T165000",
+      "authors": ["Shuvra Shankar Dey"],
+      "summary": "PLTR's third-quarter 2024 earnings and revenues are likely to increase year over year.",
+      "overall_sentiment_score": 0.367992
+    },
+    {
+      "title": "Behind the Scenes of Palantir Technologies's Latest Options Trends - Palantir Technologies  ( NYSE:PLTR ) ",
+      "url": "https://www.benzinga.com/insights/options/24/10/41654444/behind-the-scenes-of-palantir-technologiess-latest-options-trends",
+      "source": "Benzinga",
+      "time_published": "20241031T134542",
+      "authors": ["Benzinga Insights"],
+      "summary": "Whales with a lot of money to spend have taken a noticeably bearish stance on Palantir Technologies. Looking at options history for Palantir Technologies PLTR we detected 9 trades. If we consider the specifics of each trade, it is accurate to state that 22% of the investors opened trades with ...",
+      "overall_sentiment_score": 0.228354
+    },
+    {
+      "title": "Billionaire Philippe Laffont of Coatue Is Dumping Shares of Nvidia and Palantir and Piling Into This Artificial Intelligence  ( AI )  Infrastructure Juggernaut",
+      "url": "https://www.fool.com/investing/2024/10/31/billionaire-philippe-laffont-sold-nvidia-palantir/",
+      "source": "Motley Fool",
+      "time_published": "20241031T090600",
+      "authors": ["Sean Williams"],
+      "summary": "Laffont's Coatue Management sent shares of Wall Street's two hottest artificial intelligence (AI) stocks packing in the June-ended quarter in favor of a company critical to the AI supply chain.",
+      "overall_sentiment_score": 0.241668
+    },
+    {
+      "title": "This Warren Buffett-Approved Investment Could Turn $300 Per Month into $1 million.",
+      "url": "https://www.fool.com/investing/2024/10/31/this-buffett-investment-could-reach-1-million/",
+      "source": "Motley Fool",
+      "time_published": "20241031T083000",
+      "authors": ["Adria Cimino"],
+      "summary": "This investment is part of Buffett's portfolio.",
+      "overall_sentiment_score": 0.339253
+    },
+    {
+      "title": "Cathie Wood Shuffles Her Tech Deck: Continues Dumping Tesla And Palantir, Stocks Up On AMD And Meta - Archer Aviation  ( NYSE:ACHR ) , Advanced Micro Devices  ( NASDAQ:AMD ) ",
+      "url": "https://www.benzinga.com/markets/equities/24/10/41642374/cathie-wood-shuffles-her-tech-deck-continues-dumping-tesla-and-palantir-stocks-up-on-amd-and-met",
+      "source": "Benzinga",
+      "time_published": "20241031T014345",
+      "authors": ["Benzinga Neuro"],
+      "summary": "On Wednesday, Cathie Wood-led Ark Invest made some significant trades, with the most notable ones involving Tesla Inc ( TSLA ) , Advanced Micro Devices Inc ( AMD ) , and Palantir Technologies Inc ( PLTR ) .",
+      "overall_sentiment_score": 0.304066
+    },
+    {
+      "title": "Where Will Palantir Stock Be in 5 Years?",
+      "url": "https://www.fool.com/investing/2024/10/30/where-will-palantir-stock-be-in-5-years/",
+      "source": "Motley Fool",
+      "time_published": "20241030T221500",
+      "authors": ["Will Ebiefung"],
+      "summary": "Can this software company justify its sky-high valuation?",
+      "overall_sentiment_score": 0.274204
+    },
+    {
+      "title": "SoFi or PayPal? Why Not Own Both Today?",
+      "url": "https://www.fool.com/investing/2024/10/31/sofi-or-paypal-why-not-own-both-today/",
+      "source": "Motley Fool",
+      "time_published": "20241031T150000",
+      "authors": ["Neil Rozenbaum"],
+      "summary": "Both companies exceeded expectations.",
+      "overall_sentiment_score": 0.108227
+    },
+    {
+      "title": "The Ultimate Growth Stock to Buy With $500 Right Now",
+      "url": "https://www.fool.com/investing/2024/10/31/the-ultimate-industrycategory-stock-to-buy-with-50/",
+      "source": "Motley Fool",
+      "time_published": "20241031T105000",
+      "authors": ["Jennifer Saibil"],
+      "summary": "This excellent stock has a long growth runway, and it's sustainably profitable.",
+      "overall_sentiment_score": 0.319653
+    },
+    {
+      "title": "Great News for SoFi Stock Investors!",
+      "url": "https://www.fool.com/investing/2024/10/31/great-news-for-sofi-stock-investors/",
+      "source": "Motley Fool",
+      "time_published": "20241031T090000",
+      "authors": ["Parkev Tatevosian", "CFA"],
+      "summary": "The financial services company is expanding the services it offers, which is creating more value for customers.",
+      "overall_sentiment_score": 0.446589
+    },
+    {
+      "title": "Why Shares of SoFi Rebounded Today",
+      "url": "https://www.fool.com/investing/2024/10/30/why-shares-of-sofi-rebounded-today/",
+      "source": "Motley Fool",
+      "time_published": "20241030T212500",
+      "authors": ["Bram Berkowitz"],
+      "summary": "Shares of SoFi fell yesterday after the company reported earnings.",
+      "overall_sentiment_score": 0.184393
+    }
+  ]
+}
