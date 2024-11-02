@@ -8,6 +8,8 @@ type Stock struct {
 
 // Article representation in MongoDB
 type Article struct {
+	UUID                  string   `json:"uuid"`
+	StockSymbol           string   `json:"symbol"`
 	Title                 string   `json:"title"`
 	URL                   string   `json:"url"`
 	Source                string   `json:"source"`

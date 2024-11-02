@@ -9,6 +9,7 @@ import (
 	"os"
 	"time"
 
+	"github.com/google/uuid"
 	"go.mongodb.org/mongo-driver/bson"
 )
 
@@ -59,7 +60,10 @@ func main() {
 		// Create a slice of articles as should be represented in Mongo
 		var articles []interface{}
 		for _, news := range feed.Feed {
-			articles = append(articles, Article{
+
+			article := Article{
+				UUID:                  uuid.NewSHA1(uuid.NameSpaceURL, []byte(fmt.Sprintf("%s|%s", news.URL, news.TimePublished))).String(),
+				StockSymbol:           stock.Symbol,
 				Title:                 news.Title,
 				URL:                   news.URL,
 				Source:                news.Source,
@@ -67,7 +71,26 @@ func main() {
 				Authors:               news.Authors,
 				Summary:               news.Summary,
 				OverallSentimentScore: news.OverallSentimentScore,
-			})
+			}
+
+			// Given the UUID check if an article exists in the database
+			collection := mc.Db.Collection("news")
+			filter := bson.M{"uuid": article.UUID}
+			count, err := collection.CountDocuments(context.Background(), filter)
+			if err != nil {
+				logger.Error().Caller().Msg(err.Error())
+				continue
+			}
+			if count > 0 {
+				logger.Debug().Msgf("Article with UUID %s already exists, skipping.", article.UUID)
+				continue
+			}
+			articles = append(articles, article)
+		}
+
+		if len(articles) == 0 {
+			logger.Info().Msg("Found 0 new articles .... Skipping")
+			continue
 		}
 
 		// Save articles for future reference

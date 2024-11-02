@@ -3,6 +3,7 @@ module github.com/Erodotos/MarketSentinel/ms-news-aggregator
 go 1.22.4
 
 require (
+	github.com/google/uuid v1.6.0
 	github.com/rs/zerolog v1.33.0
 	go.mongodb.org/mongo-driver v1.17.1
 )

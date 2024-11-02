@@ -4,103 +4,488 @@
   "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
   "feed": [
     {
+      "uuid": "781b31fc-9dd5-5e10-8e54-79773ee357ef",
+      "stocksymbol": "SOFI",
+      "title": "Why SoFi Technologies  ( SOFI )  Might be Well Poised for a Surge",
+      "url": "https://www.zacks.com/stock/news/2362830/why-sofi-technologies-sofi-might-be-well-poised-for-a-surge",
+      "source": "Zacks Commentary",
+      "timepublished": "20241101T162009",
+      "authors": ["Zacks Equity Research"],
+      "summary": "SoFi Technologies (SOFI) shares have started gaining and might continue moving higher in the near term, as indicated by solid earnings estimate revisions.",
+      "overallsentimentscore": 0.441297
+    },
+    {
+      "uuid": "9746816c-1bff-5770-b43a-c9db77c30207",
+      "stocksymbol": "PLTR",
+      "title": "The Zacks Analyst Blog Palantir Technologies, NVIDIA and SoundHound AI",
+      "url": "https://www.zacks.com/stock/news/2362394/the-zacks-analyst-blog-palantir-technologies-nvidia-and-soundhound-ai",
+      "source": "Zacks Commentary",
+      "timepublished": "20241101T124300",
+      "authors": ["Zacks Investment Research"],
+      "summary": "Palantir Technologies, NVIDIA and SoundHound AI are included in this Analyst Blog.",
+      "overallsentimentscore": 0.352933
+    },
+    {
+      "uuid": "a546a36a-42ee-5c1e-9f18-5e5d740dcf78",
+      "stocksymbol": "PLTR",
+      "title": "Palantir Stock Continues to Soar, but Has It Peaked?",
+      "url": "https://www.fool.com/investing/2024/11/01/palantir-stock-continues-to-soar-but-has-it-peaked/",
+      "source": "Motley Fool",
+      "timepublished": "20241101T102900",
+      "authors": ["David Jagielski"],
+      "summary": "Can anything stop its scorching-hot rally?",
+      "overallsentimentscore": 0.169746
+    },
+    {
+      "uuid": "134fecd1-b6a9-5838-b02c-087e8daf998f",
+      "stocksymbol": "PLTR",
+      "title": "The Future of Defense Is Artificial Intelligence  ( AI ) . Here's Why Palantir Is My Top Choice.",
+      "url": "https://www.fool.com/investing/2024/11/01/the-future-of-defense-is-artificial-intelligence-a/",
+      "source": "Motley Fool",
+      "timepublished": "20241101T072000",
+      "authors": ["Adam Spatacco"],
+      "summary": "Artificial intelligence (AI) plays an important role in the defense sector, an opportunity expected to be worth $16 billion by the end of the decade.",
+      "overallsentimentscore": 0.338704
+    },
+    {
+      "uuid": "91c472a7-326c-512c-bd43-a41b9df936a3",
+      "stocksymbol": "PLTR",
+      "title": "Cathie Wood Bets Big On Mark Zuckerberg: Ark Pours $19M Into Meta Shares, Dumps Palantir And Tesla Stock - ARK Fintech Innovation ETF  ( ARCA:ARKF ) ",
+      "url": "https://www.benzinga.com/markets/equities/24/10/41674556/cathie-wood-bets-big-on-mark-zuckerberg-ark-pours-19m-into-meta-shares-dumps-palantir-and-tesla-",
+      "source": "Benzinga",
+      "timepublished": "20241101T022845",
+      "authors": ["Benzinga Neuro"],
+      "summary": "On Thursday, the Cathie Wood-led Ark Invest made significant moves in the market, with prominent trades involving Tesla Inc. TSLA, Meta Platforms Inc. META, Palantir Technologies Inc. PLTR and Block Inc SQ.",
+      "overallsentimentscore": 0.258551
+    },
+    {
+      "uuid": "fa7cb16b-2be7-5b6d-bd4f-ad328bc49213",
+      "stocksymbol": "PLTR",
       "title": "L3Harris And Palantir Collaboration Key To Future Growth, BofA Upgrades Stock - L3Harris Technologies  ( NYSE:LHX ) ",
       "url": "https://www.benzinga.com/analyst-ratings/analyst-color/24/10/41660695/l3harris-and-palantir-collaboration-key-to-future-growth-bofa-upgrades-stock",
       "source": "Benzinga",
-      "time_published": "20241031T173057",
+      "timepublished": "20241031T173057",
       "authors": ["Lekha Gupta"],
       "summary": "BofA Securities analyst Ronald J. Epstein upgraded L3Harris Technologies, Inc. LHX to Buy from Neutral and raised the price target to $300 from $240. The analyst writes that L3Harris introduced its transformation initiative, \"LHX Next,\" which he initially viewed with cautious optimism.",
-      "overall_sentiment_score": 0.462546
+      "overallsentimentscore": 0.462546
     },
     {
+      "uuid": "1dedd19b-adb1-5c1c-9a8e-244ed31a8c33",
+      "stocksymbol": "PLTR",
       "title": "Should Palantir Stock be Part of Your Portfolio Ahead of Q3 Earnings?",
       "url": "https://www.zacks.com/stock/news/2362059/should-palantir-stock-be-part-of-your-portfolio-ahead-of-q3-earnings",
       "source": "Zacks Commentary",
-      "time_published": "20241031T165000",
+      "timepublished": "20241031T165000",
       "authors": ["Shuvra Shankar Dey"],
       "summary": "PLTR's third-quarter 2024 earnings and revenues are likely to increase year over year.",
-      "overall_sentiment_score": 0.367992
+      "overallsentimentscore": 0.367992
     },
     {
+      "uuid": "941c2d6b-308d-556f-9837-6a003e59a540",
+      "stocksymbol": "PLTR",
       "title": "Behind the Scenes of Palantir Technologies's Latest Options Trends - Palantir Technologies  ( NYSE:PLTR ) ",
       "url": "https://www.benzinga.com/insights/options/24/10/41654444/behind-the-scenes-of-palantir-technologiess-latest-options-trends",
       "source": "Benzinga",
-      "time_published": "20241031T134542",
+      "timepublished": "20241031T134542",
       "authors": ["Benzinga Insights"],
       "summary": "Whales with a lot of money to spend have taken a noticeably bearish stance on Palantir Technologies. Looking at options history for Palantir Technologies PLTR we detected 9 trades. If we consider the specifics of each trade, it is accurate to state that 22% of the investors opened trades with ...",
-      "overall_sentiment_score": 0.228354
+      "overallsentimentscore": 0.228354
     },
     {
+      "uuid": "4199e6c4-17b8-51bf-9376-ebcac19df449",
+      "stocksymbol": "PLTR",
       "title": "Billionaire Philippe Laffont of Coatue Is Dumping Shares of Nvidia and Palantir and Piling Into This Artificial Intelligence  ( AI )  Infrastructure Juggernaut",
       "url": "https://www.fool.com/investing/2024/10/31/billionaire-philippe-laffont-sold-nvidia-palantir/",
       "source": "Motley Fool",
-      "time_published": "20241031T090600",
+      "timepublished": "20241031T090600",
       "authors": ["Sean Williams"],
       "summary": "Laffont's Coatue Management sent shares of Wall Street's two hottest artificial intelligence (AI) stocks packing in the June-ended quarter in favor of a company critical to the AI supply chain.",
-      "overall_sentiment_score": 0.241668
+      "overallsentimentscore": 0.241668
     },
     {
+      "uuid": "42e193a1-4502-5b77-84bf-0255a12887b3",
+      "stocksymbol": "PLTR",
       "title": "This Warren Buffett-Approved Investment Could Turn $300 Per Month into $1 million.",
       "url": "https://www.fool.com/investing/2024/10/31/this-buffett-investment-could-reach-1-million/",
       "source": "Motley Fool",
-      "time_published": "20241031T083000",
+      "timepublished": "20241031T083000",
       "authors": ["Adria Cimino"],
       "summary": "This investment is part of Buffett's portfolio.",
-      "overall_sentiment_score": 0.339253
+      "overallsentimentscore": 0.339253
     },
     {
+      "uuid": "a023cc5b-5894-5282-bdac-11bbf15c4f4d",
+      "stocksymbol": "PLTR",
       "title": "Cathie Wood Shuffles Her Tech Deck: Continues Dumping Tesla And Palantir, Stocks Up On AMD And Meta - Archer Aviation  ( NYSE:ACHR ) , Advanced Micro Devices  ( NASDAQ:AMD ) ",
       "url": "https://www.benzinga.com/markets/equities/24/10/41642374/cathie-wood-shuffles-her-tech-deck-continues-dumping-tesla-and-palantir-stocks-up-on-amd-and-met",
       "source": "Benzinga",
-      "time_published": "20241031T014345",
+      "timepublished": "20241031T014345",
       "authors": ["Benzinga Neuro"],
       "summary": "On Wednesday, Cathie Wood-led Ark Invest made some significant trades, with the most notable ones involving Tesla Inc ( TSLA ) , Advanced Micro Devices Inc ( AMD ) , and Palantir Technologies Inc ( PLTR ) .",
-      "overall_sentiment_score": 0.304066
+      "overallsentimentscore": 0.304066
     },
     {
+      "uuid": "f388a321-4a8b-5130-bff0-b71fce39461f",
+      "stocksymbol": "PLTR",
       "title": "Where Will Palantir Stock Be in 5 Years?",
       "url": "https://www.fool.com/investing/2024/10/30/where-will-palantir-stock-be-in-5-years/",
       "source": "Motley Fool",
-      "time_published": "20241030T221500",
+      "timepublished": "20241030T221500",
       "authors": ["Will Ebiefung"],
       "summary": "Can this software company justify its sky-high valuation?",
-      "overall_sentiment_score": 0.274204
+      "overallsentimentscore": 0.274204
     },
     {
+      "uuid": "79853588-0652-5509-bfcd-6c9636e6572c",
+      "stocksymbol": "PLTR",
+      "title": "Klaviyo, Inc.  ( KVYO )  Reports Next Week: Wall Street Expects Earnings Growth",
+      "url": "https://www.zacks.com/stock/news/2360718/klaviyo-inc-kvyo-reports-next-week-wall-street-expects-earnings-growth",
+      "source": "Zacks Commentary",
+      "timepublished": "20241030T140154",
+      "authors": ["Zacks Equity Research"],
+      "summary": "Klaviyo, Inc. (KVYO) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "overallsentimentscore": 0.135443
+    },
+    {
+      "uuid": "3ed8e313-0aca-534e-bf3a-222bed3fa6ff",
+      "stocksymbol": "PLTR",
+      "title": "Palantir Technologies Inc.  ( PLTR )  is Attracting Investor Attention: Here is What You Should Know",
+      "url": "https://www.zacks.com/stock/news/2360414/palantir-technologies-inc-pltr-is-attracting-investor-attention-here-is-what-you-should-know",
+      "source": "Zacks Commentary",
+      "timepublished": "20241030T130016",
+      "authors": ["Zacks Equity Research"],
+      "summary": "Palantir Technologies (PLTR) has been one of the stocks most watched by Zacks.com users lately. So, it is worth exploring what lies ahead for the stock.",
+      "overallsentimentscore": 0.226196
+    },
+    {
+      "uuid": "5fbef25b-1a94-52d6-ba0f-2bb553b65cbc",
+      "stocksymbol": "PLTR",
+      "title": "Should You Buy Palantir Before Nov. 4?",
+      "url": "https://www.fool.com/investing/2024/10/30/should-you-buy-palantir-before-nov-4/",
+      "source": "Motley Fool",
+      "timepublished": "20241030T081500",
+      "authors": ["Adria Cimino"],
+      "summary": "Palantir shares have surged more than 150% so far this year.",
+      "overallsentimentscore": 0.346768
+    },
+    {
+      "uuid": "2ea20be5-0d1e-53d1-b1bb-abc2acacf4a1",
+      "stocksymbol": "PLTR",
+      "title": "Inquiry Into Palantir Technologies's Competitor Dynamics In Software Industry - Palantir Technologies  ( NYSE:PLTR ) ",
+      "url": "https://www.benzinga.com/insights/news/24/10/41602344/inquiry-into-palantir-technologiess-competitor-dynamics-in-software-industry",
+      "source": "Benzinga",
+      "timepublished": "20241029T150038",
+      "authors": ["Benzinga Insights"],
+      "summary": "In today's rapidly changing and fiercely competitive business landscape, it is essential for investors and industry enthusiasts to thoroughly analyze companies. In this article, we will conduct a comprehensive industry comparison, evaluating Palantir Technologies PLTR against its key competitors ...",
+      "overallsentimentscore": 0.229949
+    },
+    {
+      "uuid": "083965af-abdf-5f17-b878-4f3a0f335dbf",
+      "stocksymbol": "PLTR",
+      "title": "Billionaire Paul Tudor Jones Just Sold all of His Palantir Shares and Is Piling Into This AI Stock Split Stock With a Massive Catalyst on the Horizon",
+      "url": "https://www.fool.com/investing/2024/10/29/billionaire-paul-tudor-jones-just-sold-palantir/",
+      "source": "Motley Fool",
+      "timepublished": "20241029T081500",
+      "authors": ["Adria Cimino"],
+      "summary": "The stock Jones is buying could excel in the near term and down the road.",
+      "overallsentimentscore": 0.33373
+    },
+    {
+      "uuid": "8071b787-25f4-5add-898d-9e1ede0c1823",
+      "stocksymbol": "PLTR",
+      "title": "Cathie Wood's Flurry Of Trades: Offloads $31.5M in Tesla, Buys Amazon, AMD And Meta - Dumps Palantir, Trims Robinhood And Square Amid Bitcoin Rally - Advanced Micro Devices  ( NASDAQ:AMD ) ",
+      "url": "https://www.benzinga.com/markets/equities/24/10/41590961/cathie-woods-flurry-of-trades-offloads-31-5m-in-tesla-buys-amazon-amd-and-meta-dumps-palantir-tr",
+      "source": "Benzinga",
+      "timepublished": "20241029T032255",
+      "authors": ["Benzinga Neuro"],
+      "summary": "On Monday, Cathie Wood's Ark Invest made significant trades in Amazon.com Inc AMZN, Robinhood Markets Inc HOOD, Block Inc SQ, Advanced Micro Devices, Inc. AMD, Meta Platforms Inc. META, Tesla Inc TSLA and Palantir Technologies Inc PLTR. These trades were part of a series of transactions carried ...",
+      "overallsentimentscore": 0.376225
+    },
+    {
+      "uuid": "e022d3d7-dd93-5c69-bfc0-384b4b454266",
+      "stocksymbol": "PLTR",
+      "title": "Palantir Technologies Inc.  ( PLTR )  Advances But Underperforms Market: Key Facts",
+      "url": "https://www.zacks.com/stock/news/2359027/palantir-technologies-inc-pltr-advances-but-underperforms-market-key-facts",
+      "source": "Zacks Commentary",
+      "timepublished": "20241028T214520",
+      "authors": ["Zacks Equity Research"],
+      "summary": "The latest trading day saw Palantir Technologies Inc. (PLTR) settling at $44.97, representing a +0.25% change from its previous close.",
+      "overallsentimentscore": 0.172069
+    },
+    {
+      "uuid": "aabfe532-381a-56d3-8350-19df73d1f4bf",
+      "stocksymbol": "PLTR",
+      "title": "Palantir Technologies Inc.  ( PLTR )  Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "url": "https://www.zacks.com/stock/news/2358671/palantir-technologies-inc-pltr-earnings-expected-to-grow-what-to-know-ahead-of-next-weeks-release",
+      "source": "Zacks Commentary",
+      "timepublished": "20241028T140116",
+      "authors": ["Zacks Equity Research"],
+      "summary": "Palantir Technologies (PLTR) doesn't possess the right combination of the two key ingredients for a likely earnings beat in its upcoming report. Get prepared with the key expectations.",
+      "overallsentimentscore": 0.135427
+    },
+    {
+      "uuid": "db076199-fae8-58e3-b5ac-2c9e0063f9d1",
+      "stocksymbol": "PLTR",
+      "title": "Take the Zacks Approach to Beat the Markets: Versus Systems, Palantir Technologies, Walmart in Focus",
+      "url": "https://www.zacks.com/stock/news/2358386/take-the-zacks-approach-to-beat-the-markets-versus-systems-palantir-technologies-walmart-in-focus",
+      "source": "Zacks Commentary",
+      "timepublished": "20241028T120100",
+      "authors": ["Santanu Roy"],
+      "summary": "Last week, our time-tested methodologies served investors well in navigating the market. Check out some of our achievements from the past three months.",
+      "overallsentimentscore": 0.154297
+    },
+    {
+      "uuid": "03756eba-1d91-5e85-a1ef-f359f7bffce3",
+      "stocksymbol": "PLTR",
+      "title": "Could BigBear.ai Become the Next Lumen Technologies?",
+      "url": "https://www.fool.com/investing/2024/10/28/could-bigbearai-become-the-next-lumen-technologies/",
+      "source": "Motley Fool",
+      "timepublished": "20241028T101500",
+      "authors": ["Leo Sun"],
+      "summary": "This little AI software company needs to prove it can grow in the shadow of its bigger competitors.",
+      "overallsentimentscore": 0.184398
+    },
+    {
+      "uuid": "76118e8c-b798-51af-b8dd-8bb7c4c7ff5d",
+      "stocksymbol": "PLTR",
+      "title": "Palantir Stock vs. Alphabet Stock: Wall Street Says Buy One and Sell the Other",
+      "url": "https://www.fool.com/investing/2024/10/28/palantir-stock-alphabet-stock-wall-street-buy-sell/",
+      "source": "Motley Fool",
+      "timepublished": "20241028T091200",
+      "authors": ["Trevor Jennewine"],
+      "summary": "Palantir and Alphabet are cashing in on artificial intelligence, but Wall Street expects one of the stocks to decline sharply.",
+      "overallsentimentscore": 0.247543
+    },
+    {
+      "uuid": "65acbc21-b7eb-5ac7-a8a5-d8ba1a942630",
+      "stocksymbol": "PLTR",
+      "title": "Should You Buy Super Micro Computer or Palantir Technologies? Here's What Wall Street Says.",
+      "url": "https://www.fool.com/investing/2024/10/28/should-you-buy-supermicro-or-palantir/",
+      "source": "Motley Fool",
+      "timepublished": "20241028T081000",
+      "authors": ["Adria Cimino"],
+      "summary": "The long-term picture looks bright for these tech players.",
+      "overallsentimentscore": 0.270827
+    },
+    {
+      "uuid": "2b1a50ed-9589-5d08-8558-2c84041a05d7",
+      "stocksymbol": "PLTR",
+      "title": "Better Artificial Intelligence Stock: Palantir vs. C3.ai",
+      "url": "https://www.fool.com/investing/2024/10/27/better-artificial-intelligence-stock-palantir-vs-c/",
+      "source": "Motley Fool",
+      "timepublished": "20241027T223000",
+      "authors": ["Robert Izquierdo"],
+      "summary": "Both tech companies are capturing customers hungry for their AI solutions.",
+      "overallsentimentscore": 0.289015
+    },
+    {
+      "uuid": "4c45098e-0053-5f41-b716-49495b67c42a",
+      "stocksymbol": "PLTR",
+      "title": "3 Millionaire-Maker Technology Stocks",
+      "url": "https://www.fool.com/investing/2024/10/27/3-millionaire-maker-technology-stocks/",
+      "source": "Motley Fool",
+      "timepublished": "20241027T081500",
+      "authors": ["James Brumley"],
+      "summary": "Spoiler alert: None of them are Apple or Amazon.",
+      "overallsentimentscore": 0.238167
+    },
+    {
+      "uuid": "1825030a-eafa-56fe-968c-c719d1c5c8d1",
+      "stocksymbol": "SOFI",
+      "title": "1 Cathie Wood Stock to Buy Right This Instant That Has 36% Upside, According to Wall Street",
+      "url": "https://www.fool.com/investing/2024/11/01/1-cathie-wood-stock-to-buy-right-this-instant-that/",
+      "source": "Motley Fool",
+      "timepublished": "20241101T101500",
+      "authors": ["Adam Spatacco"],
+      "summary": "Cathie Wood has quietly built a large position in fintech darling SoFi Technologies.",
+      "overallsentimentscore": 0.317716
+    },
+    {
+      "uuid": "34dcfd83-4f7f-5290-9b19-a10548b8c8b1",
+      "stocksymbol": "SOFI",
+      "title": "1 Artificial Intelligence  ( AI )  Stock That Has 200% Upside According to 1 Wall Street Analyst",
+      "url": "https://www.fool.com/investing/2024/11/01/1-artificial-intelligence-ai-stock-that-has-233-up/",
+      "source": "Motley Fool",
+      "timepublished": "20241101T090000",
+      "authors": ["Jennifer Saibil"],
+      "summary": "This disruptive tech stock is making waves in the financial industry.",
+      "overallsentimentscore": 0.24553
+    },
+    {
+      "uuid": "71228c6e-2cf3-5bd0-97b4-d4585bf0c4c3",
+      "stocksymbol": "SOFI",
+      "title": "SoFi Technologies Stock: Buy, Sell, or Hold?",
+      "url": "https://www.fool.com/investing/2024/11/01/sofi-technologies-stock-buy-sell-or-hold/",
+      "source": "Motley Fool",
+      "timepublished": "20241101T082300",
+      "authors": ["Leo Sun"],
+      "summary": "This hot fintech stock was nearly cut in half after its public debut.",
+      "overallsentimentscore": 0.228158
+    },
+    {
+      "uuid": "b48f338a-04f7-5af0-9be2-5ab2f543c99c",
+      "stocksymbol": "SOFI",
       "title": "SoFi or PayPal? Why Not Own Both Today?",
       "url": "https://www.fool.com/investing/2024/10/31/sofi-or-paypal-why-not-own-both-today/",
       "source": "Motley Fool",
-      "time_published": "20241031T150000",
+      "timepublished": "20241031T150000",
       "authors": ["Neil Rozenbaum"],
       "summary": "Both companies exceeded expectations.",
-      "overall_sentiment_score": 0.108227
+      "overallsentimentscore": 0.108227
     },
     {
+      "uuid": "45db0f39-67f8-5e04-bcf8-b11a6ee45676",
+      "stocksymbol": "SOFI",
       "title": "The Ultimate Growth Stock to Buy With $500 Right Now",
       "url": "https://www.fool.com/investing/2024/10/31/the-ultimate-industrycategory-stock-to-buy-with-50/",
       "source": "Motley Fool",
-      "time_published": "20241031T105000",
+      "timepublished": "20241031T105000",
       "authors": ["Jennifer Saibil"],
       "summary": "This excellent stock has a long growth runway, and it's sustainably profitable.",
-      "overall_sentiment_score": 0.319653
+      "overallsentimentscore": 0.319653
     },
     {
+      "uuid": "73e4489f-6193-5cfb-8e7a-6c01e6cac9ad",
+      "stocksymbol": "SOFI",
       "title": "Great News for SoFi Stock Investors!",
       "url": "https://www.fool.com/investing/2024/10/31/great-news-for-sofi-stock-investors/",
       "source": "Motley Fool",
-      "time_published": "20241031T090000",
+      "timepublished": "20241031T090000",
       "authors": ["Parkev Tatevosian", "CFA"],
       "summary": "The financial services company is expanding the services it offers, which is creating more value for customers.",
-      "overall_sentiment_score": 0.446589
+      "overallsentimentscore": 0.446589
     },
     {
+      "uuid": "359c7a16-1b3d-538a-a615-e87a455525ba",
+      "stocksymbol": "SOFI",
       "title": "Why Shares of SoFi Rebounded Today",
       "url": "https://www.fool.com/investing/2024/10/30/why-shares-of-sofi-rebounded-today/",
       "source": "Motley Fool",
-      "time_published": "20241030T212500",
+      "timepublished": "20241030T212500",
       "authors": ["Bram Berkowitz"],
       "summary": "Shares of SoFi fell yesterday after the company reported earnings.",
-      "overall_sentiment_score": 0.184393
+      "overallsentimentscore": 0.184393
+    },
+    {
+      "uuid": "e2d1b504-f398-59ea-9149-771ac737204f",
+      "stocksymbol": "SOFI",
+      "title": "SoFi Impresses With Q3 Beat And Upgraded Guidance, Analysts Boost Price Forecasts On Loan Momentum - SoFi Techs  ( NASDAQ:SOFI ) ",
+      "url": "https://www.benzinga.com/analyst-ratings/analyst-color/24/10/41634081/sofi-impresses-with-q3-beat-and-upgraded-guidance-analysts-boost-price-forecasts-on",
+      "source": "Benzinga",
+      "timepublished": "20241030T185721",
+      "authors": ["Anusuya Lahiri"],
+      "summary": "SoFi Technologies Inc SOFI stock is trading higher after Needham analyst Kyle Peterson maintained a Buy rating and raised its price target from $10 to $13. Goldman Sachs analyst Michael Ng maintained SoFi with a Neutral and raised the price target from $7.5 to $8.5.",
+      "overallsentimentscore": 0.366154
+    },
+    {
+      "uuid": "f7deccbb-ee31-54dd-aed8-def3dd89f745",
+      "stocksymbol": "SOFI",
+      "title": "SoFi Technologies Stock Fell Despite Outstanding Results. Is It a Bargain Now?",
+      "url": "https://www.fool.com/investing/2024/10/30/sofi-technologies-stock-tanked-despite-outstanding/",
+      "source": "Motley Fool",
+      "timepublished": "20241030T125300",
+      "authors": ["Cory Renauer"],
+      "summary": "The online bank performed well, but that didn't stop the stock market from knocking it down.",
+      "overallsentimentscore": 0.240804
+    },
+    {
+      "uuid": "f6de0612-1755-5890-9f3b-0535bd2448b3",
+      "stocksymbol": "SOFI",
+      "title": "Should Investors Buy SoFi Stock on the Dip?",
+      "url": "https://www.fool.com/investing/2024/10/30/should-investors-buy-sofi-stock-on-the-dip/",
+      "source": "Motley Fool",
+      "timepublished": "20241030T091500",
+      "authors": ["CFA", "Parkev Tatevosian"],
+      "summary": "The financial services company is relieved that macroeconomic growth is much better than feared in 2024.",
+      "overallsentimentscore": 0.104413
+    },
+    {
+      "uuid": "a3edd3b3-a650-555a-a133-14c625c7b8d4",
+      "stocksymbol": "SOFI",
+      "title": "SoFi Technologies Stock Rises 42% in a Month: Buy, Hold, or Sell?",
+      "url": "https://www.zacks.com/stock/news/2359861/sofi-technologies-stock-rises-42-in-a-month-buy-hold-or-sell",
+      "source": "Zacks Commentary",
+      "timepublished": "20241029T163100",
+      "authors": ["Shuvra Shankar Dey"],
+      "summary": "Given the recent surge in SOFI shares, we evaluate the stock's current position to determine how to play it now.",
+      "overallsentimentscore": 0.305338
+    },
+    {
+      "uuid": "e8fbaa88-d6fe-554d-88b5-31527440c69a",
+      "stocksymbol": "SOFI",
+      "title": "Why Is SoFi Stock Plummeting Today?",
+      "url": "https://www.fool.com/investing/2024/10/29/why-is-sofi-stock-plummeting-today/",
+      "source": "Motley Fool",
+      "timepublished": "20241029T150954",
+      "authors": ["Neil Rozenbaum"],
+      "summary": "Despite the tough macro environment, this \"bank stock\" performs flawlessly.",
+      "overallsentimentscore": 0.188027
+    },
+    {
+      "uuid": "f573028d-c645-5a8f-a769-acc90a09c32a",
+      "stocksymbol": "SOFI",
+      "title": "Why SoFi Technologies Stock Crashed 12.5% After Earnings",
+      "url": "https://www.fool.com/investing/2024/10/29/why-sofi-technologies-stock-crashed-125-today/",
+      "source": "Motley Fool",
+      "timepublished": "20241029T144609",
+      "authors": ["Rich Smith"],
+      "summary": "SoFi stock costs a lot... and may be worth it.",
+      "overallsentimentscore": 0.349145
+    },
+    {
+      "uuid": "096bfc3d-6776-5e37-aba3-ada17f89ece8",
+      "stocksymbol": "SOFI",
+      "title": "Should You Buy SoFi Stock Before Oct. 29?",
+      "url": "https://www.fool.com/investing/2024/10/29/should-you-buy-sofi-stock-before-october-29/",
+      "source": "Motley Fool",
+      "timepublished": "20241029T143000",
+      "authors": ["CFA", "Parkev Tatevosian"],
+      "summary": "The financial services company is growing in all the right places in 2024.",
+      "overallsentimentscore": 0.413174
+    },
+    {
+      "uuid": "092c15f2-5108-58e5-a036-f06db2b21e74",
+      "stocksymbol": "SOFI",
+      "title": "SoFi Technologies Q3 Earnings: Revenue Beat, EPS Beat, Raised Guidance Following 'Strongest Quarter' Ever - SoFi Techs  ( NASDAQ:SOFI ) ",
+      "url": "https://www.benzinga.com/news/earnings/24/10/41599417/sofi-technologies-q3-earnings-revenue-beat-eps-beat-raised-guidance-following-strongest-quarter-eve",
+      "source": "Benzinga",
+      "timepublished": "20241029T132306",
+      "authors": ["Adam Eckert"],
+      "summary": "SoFi Technologies Inc SOFI shares initially rose Tuesday on the heels of the company's third-quarter financial results but have since reversed. Here's a look at the key metrics from the quarter.",
+      "overallsentimentscore": 0.340649
+    },
+    {
+      "uuid": "3fa7883e-7f32-58f9-b9cb-b73a20977834",
+      "stocksymbol": "SOFI",
+      "title": "Should You Buy SoFi Technologies Before Oct. 29?",
+      "url": "https://www.fool.com/investing/2024/10/28/should-you-buy-sofi-technologies-before-oct-29/",
+      "source": "Motley Fool",
+      "timepublished": "20241028T130540",
+      "authors": ["Neil Rozenbaum"],
+      "summary": "Sentiment around SoFi stock has certainly changed in recent weeks.",
+      "overallsentimentscore": 0.172179
+    },
+    {
+      "uuid": "23a2b336-1111-5779-81f0-e7d2ea319647",
+      "stocksymbol": "SOFI",
+      "title": "Is SoFi a Millionaire Maker?",
+      "url": "https://www.fool.com/investing/2024/10/28/is-sofi-a-millionaire-maker/",
+      "source": "Motley Fool",
+      "timepublished": "20241028T120000",
+      "authors": ["Neil Patel"],
+      "summary": "Shares of the digital bank are up 44% just in October.",
+      "overallsentimentscore": 0.360251
+    },
+    {
+      "uuid": "d887af20-1632-55ed-8bbf-36bb247c9e03",
+      "stocksymbol": "SOFI",
+      "title": "Is SoFi Stock a Buy?",
+      "url": "https://www.fool.com/investing/2024/10/27/is-sofi-stock-a-buy/",
+      "source": "Motley Fool",
+      "timepublished": "20241027T122500",
+      "authors": ["Courtney Carlsen"],
+      "summary": "SoFi is down 62% from its peak. Here's why it could be a good buy today.",
+      "overallsentimentscore": 0.322658
     }
   ]
 }
