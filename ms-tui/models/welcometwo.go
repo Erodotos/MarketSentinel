@@ -8,6 +8,8 @@ import (
 
 type WelcomeTwoModel struct {
 	content  string
+	tWidth   int
+	tHeight  int
 	quitting bool
 }
 
@@ -27,7 +29,11 @@ func (m WelcomeTwoModel) Init() tea.Cmd {
 func (m WelcomeTwoModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	var cmd tea.Cmd
 	var cmds []tea.Cmd
+
 	switch msg := msg.(type) {
+	case tea.WindowSizeMsg:
+		m.tWidth, m.tHeight = msg.Width, msg.Height
+		return m, tea.Batch(cmds...)
 	case tea.KeyMsg:
 		switch key := msg.String(); key {
 		case "ctrl+c":
@@ -46,8 +52,8 @@ func (m WelcomeTwoModel) View() string {
 	}
 
 	output := fmt.Sprintf(
-		"%s",
-		m.content)
+		"%s \n %s",
+		m.content, footer(m.tWidth, m.tHeight))
 
 	return output
 }

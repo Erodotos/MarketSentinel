@@ -1,6 +1,7 @@
 package models
 
 import (
+	"fmt"
 	"strconv"
 
 	"github.com/charmbracelet/bubbles/textinput"
@@ -64,7 +65,6 @@ func (m MainModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		switch msg := msg.(type) {
 		case tea.WindowSizeMsg:
 			m.loaded = true
-			return m, tea.Batch(cmds...)
 		case tea.KeyMsg:
 			switch key := msg.String(); key {
 			case "/":
@@ -73,6 +73,8 @@ func (m MainModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			}
 
 		}
+
+		fmt.Println(m.state - 1)
 
 		newModel, newCmd := m.models[m.state-1].Update(msg)
 		m.models[m.state-1] = newModel
