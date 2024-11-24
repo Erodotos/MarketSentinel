@@ -1,8 +1,6 @@
 package models
 
 import (
-	"time"
-
 	"github.com/charmbracelet/lipgloss"
 )
 
@@ -19,7 +17,7 @@ func applyStyle(widgetName, content string, width, height int) string {
 		Background(lipgloss.Color("240")).
 		Width(width / 3).
 		AlignHorizontal(lipgloss.Center).
-		SetString(time.Now().Format("02/01/2006 - 15:04"))
+		SetString(currentTime)
 
 	ribbonStyleRight := lipgloss.NewStyle().
 		Background(lipgloss.Color("240")).

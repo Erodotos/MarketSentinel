@@ -3,6 +3,7 @@ package models
 import (
 	"io"
 	"os"
+	"time"
 
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
@@ -11,6 +12,9 @@ import (
 
 // Global Variables
 var terminalWidth, terminalHeight int
+var currentTime string
+
+type tickMsg time.Time
 
 type RootModel struct {
 	dump         io.Writer
@@ -47,8 +51,14 @@ func NewRootModel() *RootModel {
 	return &model
 }
 
+func tickCmd() tea.Cmd {
+	return tea.Tick(time.Second, func(t time.Time) tea.Msg {
+		return tickMsg(t)
+	})
+}
+
 func (m *RootModel) Init() tea.Cmd {
-	return nil
+	return tickCmd()
 }
 
 func (m *RootModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
@@ -59,8 +69,13 @@ func (m *RootModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		spew.Fdump(m.dump, msg)
 	}
 
+	currentTime = time.Now().Format("02/01/2006 - 15:04")
+
 	if m.showRouter {
 		switch msg := msg.(type) {
+		case tickMsg:
+			cmd = tickCmd()
+			cmds = append(cmds, cmd)
 		case tea.KeyMsg:
 			switch key := msg.String(); key {
 			case "enter":
@@ -77,6 +92,9 @@ func (m *RootModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		}
 	} else {
 		switch msg := msg.(type) {
+		case tickMsg:
+			cmd = tickCmd()
+			cmds = append(cmds, cmd)
 		case tea.WindowSizeMsg:
 			terminalWidth = msg.Width
 			terminalHeight = msg.Height
@@ -95,7 +113,7 @@ func (m *RootModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 		newModel, newCmd := m.models[m.currentModel].Update(msg)
 		m.models[m.currentModel] = newModel
-		cmd = newCmd
+		cmds = append(cmds, newCmd)
 	}
 
 	cmds = append(cmds, cmd)
