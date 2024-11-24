@@ -6,40 +6,40 @@ import (
 	"github.com/charmbracelet/lipgloss"
 )
 
-func footer(width, height int) string {
-	// Create the ribbon style
+func applyStyle(widgetName, content string, width, height int) string {
+	// Create Footer
 	ribbonStyleLeft := lipgloss.NewStyle().
-		Background(lipgloss.Color("240")). // Light grey background (you can adjust the color code)
-		Width(width / 3).                  // Full terminal width
-		PaddingLeft(1).
+		Background(lipgloss.Color("240")).
+		Width(width / 3).
+		PaddingLeft(2).
 		AlignHorizontal(lipgloss.Left).
-		SetString("widget:sentiment")
+		SetString("widget : " + widgetName)
 
 	ribbonStyleCenter := lipgloss.NewStyle().
-		Background(lipgloss.Color("240")). // Light grey background (you can adjust the color code)
-		Width(width / 3).                  // Full terminal width
-		PaddingLeft(1).
+		Background(lipgloss.Color("240")).
+		Width(width / 3).
 		AlignHorizontal(lipgloss.Center).
 		SetString(time.Now().Format("02/01/2006 - 15:04"))
 
 	ribbonStyleRight := lipgloss.NewStyle().
-		Background(lipgloss.Color("240")). // Light grey background (you can adjust the color code)
-		Width(width / 3).                  // Full terminal width
-		PaddingRight(1).
+		Background(lipgloss.Color("240")).
+		Width(width / 3).
+		PaddingRight(2).
 		AlignHorizontal(lipgloss.Right).
 		SetString("MarketSentinel v0.0.1")
 
-	// Create some content above the ribbon (optional)
-	// content := "This is some content above the ribbon.\nYou can add more lines here."
-	// contentStyle := lipgloss.NewStyle().
-	// 	Height(20 - 3). // Adjust height to leave space for the ribbon (and a small buffer)
-	// 	MaxWidth(100).
-	// 	Align(lipgloss.Center)
+	contentStyled := lipgloss.NewStyle().
+		Width(width).
+		Height(height).
+		Align(lipgloss.Center, lipgloss.Center).
+		Render(content)
 
-	// styledContent := contentStyle.Render(content)
+	footerStyled := lipgloss.JoinHorizontal(lipgloss.Right,
+		ribbonStyleLeft.Render(),
+		ribbonStyleCenter.Render(),
+		ribbonStyleRight.Render(),
+	)
 
-	// Create the ribbon text (optional)
-	// ribbonText := "This is the ribbon at the bottom"
-	return lipgloss.JoinHorizontal(lipgloss.Right, ribbonStyleLeft.Render(), ribbonStyleCenter.Render(), ribbonStyleRight.Render())
+	return lipgloss.JoinVertical(lipgloss.Top, contentStyled, footerStyled)
 
 }
